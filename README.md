@@ -2,6 +2,14 @@
 
 This example shows how to run `n` number of virtual machines behind a load balancer, each hosting a simple Node.js web application.
 
+The example demonstrates:
+
+- Module usage (inputs/outputs)
+- Remote backend usage
+- Creating `n` number of virtual machines
+- Bootstrapping virtual machines with `cloud-init`
+- Creating a load balancer and connecting the VMs to it
+
 ## Steps to run the example
 
 - Login to Azure:
