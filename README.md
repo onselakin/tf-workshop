@@ -30,7 +30,7 @@ This example shows how to run `n` number of virtual machines behind a load balan
 
 - Update the backend configuration in `main.tf` for the root module with the outputs above
 
-  ```json
+  ```hcl
   backend "azurerm" {
     resource_group_name  = "vms-state"
     storage_account_name = "<STORAGE_ACCOUNT_NAME>"
