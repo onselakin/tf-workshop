@@ -10,10 +10,10 @@ terraform {
 
   backend "azurerm" {
     resource_group_name  = "vms-state"
-    storage_account_name = ""
+    storage_account_name = "<STORAGE_ACCOUNT_NAME>"
     container_name       = "tfstatec"
     key                  = "vms-playground/terraform.tfstate"
-    access_key           = ""
+    access_key           = "<ACCESS_KEY_FOR_STORAGE>"
   }
 }
 

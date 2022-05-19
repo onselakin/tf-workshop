@@ -57,3 +57,12 @@ The example demonstrates:
   terraform init
   terraform apply
   ```
+  
+## Testing with TerraTest
+
+To test the infrastructure run:
+
+  ```bash
+  cd test
+  go test -v -timeout 1h
+  ```
